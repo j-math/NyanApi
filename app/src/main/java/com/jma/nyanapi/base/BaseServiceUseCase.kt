@@ -3,7 +3,7 @@ package com.jma.nyanapi.base
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 
-abstract class BaseUseCase <in Params, out Results>(
+abstract class BaseServiceUseCase <in Params, out Results>(
     private val coroutineDispatcher: CoroutineDispatcher,
 ) {
 
